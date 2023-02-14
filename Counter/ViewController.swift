@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonTap: UIButton!
     
     private var score: Int = 1
-    private var inscriprion: String = ""
     
     @IBAction func buttonDid(_ sender: Any) {
         labelValue.text = "«Значение счётчика: \(score)»"
