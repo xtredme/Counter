@@ -12,8 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var buttonTap: UIButton!
     
+    private var score: Int = 1
+    private var inscriprion: String = ""
+    
     @IBAction func buttonDid(_ sender: Any) {
-        print("Hello")
+        labelValue.text = "«Значение счётчика: \(score)»"
+        score += 1
     }
     override func viewDidLoad() {
         super.viewDidLoad()
