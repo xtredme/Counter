@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        labelValue.text = "«Значение счётчика: 0»"
         // Do any additional setup after loading the view.
     }
 
